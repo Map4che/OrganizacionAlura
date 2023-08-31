@@ -1,0 +1,19 @@
+.formulario-btn {
+  width: 167px;
+  height: 80px;
+  border-radius: 10px;
+  background: #6278f7;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 32px 0;
+  border: none;
+}
+
+.formulario-btn:hover {
+  cursor: pointer;
+  color: #95ffd4;
+}
