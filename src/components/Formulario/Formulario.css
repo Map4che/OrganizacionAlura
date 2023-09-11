@@ -11,16 +11,16 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  max-width: 80%;
+  max-width: 90%;
   background-color: #f7f7f7;
   box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
   border-radius: 20px;
-  padding: 8px 100px;
+  padding: 8px 40px;
   margin-bottom: 40px;
 }
 
 .formulario-title {
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 400;
   color: #212121;
   margin-bottom: 40px;
@@ -37,5 +37,10 @@
     max-width: 44%;
     gap: 40px;
     margin: 20px;
+    padding: 8px 100px;
+  }
+
+  .formulario-title {
+    font-size: 32px;
   }
 }

@@ -1,6 +1,7 @@
 .org-section {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 0 40px;
@@ -10,12 +11,15 @@
   font-size: 40px;
   font-weight: 400;
   color: #6278f7;
+  color: #6278f7;
   padding-bottom: 24px;
   border-bottom: 4px solid #6278f7;
 }
 
-.org-img {
-  position: absolute;
-  right: 16%;
-  cursor: pointer;
+@media screen and (min-width: 960px) {
+  .org-img {
+    position: absolute;
+    right: 16%;
+    cursor: pointer;
+  }
 }
